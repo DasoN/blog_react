@@ -1,0 +1,17 @@
+.button{
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: rgb(0, 255, 170);
+    border: 0;
+    opacity: 0.8;
+    transition: box-shadow .8 ease;
+
+    &:hover{
+        @apply shadow-md;
+        cursor: pointer;
+        opacity: 1;
+    }
+}

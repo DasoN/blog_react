@@ -1,0 +1,13 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 233, 233);
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
+
+.name{
+    @apply font-bold text-2xl mb-5 pl-5; 
+}
